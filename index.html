@@ -1,1 +1,248 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick's Data Services | Repair, Recovery, Restoration & IT</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #131c2e;
+            --accent-green: #00ff66;
+            --accent-blue: #00d2ff;
+            --accent-orange: #ff9900;
+            --text-main: #ffffff;
+            --text-muted: #94a3b8;
+            --border-color: #1e293b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--accent-orange);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(255, 153, 0, 0.3);
+        }
+
+        header p.subtitle {
+            font-size: 1.1rem;
+            color: var(--accent-blue);
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .cta-banner {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            border: 2px solid var(--accent-green);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+        }
+
+        .cta-banner h2 {
+            color: var(--accent-green);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .phone-btn {
+            display: inline-block;
+            background-color: var(--accent-green);
+            color: #000;
+            padding: 12px 30px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .phone-btn:hover {
+            background-color: #00cc52;
+            box-shadow: 0 0 15px var(--accent-green);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .card h3 {
+            color: var(--accent-blue);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+        }
+
+        ul li::before {
+            content: "✔";
+            color: var(--accent-green);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .flyer-section {
+            text-align: center;
+            margin: 40px 0;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .flyer-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid var(--border-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Rick's Data Services</h1>
+            <p class="subtitle">Repair • Recovery • Restoration • IT</p>
+        </header>
+
+        <div class="cta-banner">
+            <h2>Your Device. Our Expertise.</h2>
+            <p>Fast, Reliable, Professional Solutions for All Platforms & Electronics</p>
+            <a href="tel:4244823558" class="phone-btn">📞 424-482-3558</a>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Computer & Electronics Repair</h3>
+                <ul>
+                    <li>PC / Laptop Repair</li>
+                    <li>Data Recovery</li>
+                    <li>Hardware Install & Upgrade</li>
+                    <li>Virus Removal / Optimization</li>
+                    <li>Console Repair (PlayStation / Xbox)</li>
+                    <li>Mobile Device Repair</li>
+                    <li>Custom Builds</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Xbox 360 Repair Specialist</h3>
+                <ul>
+                    <li>Original, S (2010), & E (2013) Models</li>
+                    <li>Disc Drive Repair</li>
+                    <li>HDD Upgrade</li>
+                    <li>RROD / YLOD Fixes</li>
+                    <li>General Cleaning & Power Supply Repair</li>
+                    <li>Board Level Repair</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card" style="grid-column: span 2;">
+                <h3>General Repair Services</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <ul>
+                        <li>Disk / File Recovery</li>
+                        <li>Data Backup</li>
+                        <li>Component Replacement</li>
+                        <li>Console & PC Repair</li>
+                    </ul>
+                    <ul>
+                        <li>System Optimization</li>
+                        <li>Network Setup</li>
+                        <li>Remote Support</li>
+                        <li>On-Site Service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flyer-section">
+            <h3 style="color: var(--accent-blue); margin-bottom: 15px;">Official Service Overview</h3>
+            <!-- Replace '1000294541.jpg' with your actual image filename if different -->
+            <img src="1000294541.jpg" alt="Rick's Data Services Flyer">
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Rick's Data Services. All rights reserved.</p>
+            <p>Contact: <a href="mailto:RicksDataServices@yahoo.com">RicksDataServices@yahoo.com</a></p>
+        </footer>
+    </div>
+
+</body>
+  </html>
+  
